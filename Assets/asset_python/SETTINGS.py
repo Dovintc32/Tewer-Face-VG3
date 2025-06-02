@@ -1,5 +1,7 @@
 # SETTINGS.py
 
+from Assets.asset_python.EXEhelper import resource_path
+
 # Размер окна
 SCREEN_WIDTH = 1400
 SCREEN_HEIGHT = 800
@@ -9,7 +11,7 @@ WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 
 # Пути к ресурсам
-FONT_PATH = "Assets/other/Bold.ttf"
+FONT_PATH = resource_path("Assets/other/Bold.ttf")
 FONT_SIZE_TITLE = 80
 FONT_SIZE_SUBTITLE = 30
 
